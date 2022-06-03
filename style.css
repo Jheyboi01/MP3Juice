@@ -1,0 +1,170 @@
+body {
+    font-size: 15pt;
+    background: #03a9fc;
+    color: #ffffff;
+}
+
+.container{
+  margin: 0 auto;
+  width: 80%;
+}
+
+#main-header{
+  border-bottom: 1px solid #1486c4;
+}
+#main-header nav{
+  text-align: center;
+  margin: auto;
+}
+
+#main-header nav ul li{
+  padding: 10px;
+  display: inline;
+  margin: 10px;
+}
+#main-header ul li:nth-child(1){
+  margin-left: 0;
+}
+
+#main-header nav ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  
+}
+
+.brand{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+  padding: 5px;
+  height: 120px;
+}
+
+
+/** Search bar**/
+form{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #fff;
+  padding: 2px;
+  background: #fff;
+  margin-top: 15%;
+}
+
+input{
+  flex-grow: 2;
+  border: none;
+  background: none;
+  padding: 5px;
+}
+
+input:focus{
+  outline: none;
+}
+
+.search{
+  padding: 5px;
+  background: #0390fc;
+  border: none;
+  color: #fff;
+}
+
+.fig1{
+  text-align: center;
+  width: 50%;
+  margin-left: auto; 
+  margin-right: auto;
+  font-size: 14px;
+}
+
+
+.fig2{
+  text-align: center;
+  font-size: 14px;
+}
+.fig2 a{
+  color: #fff;
+}
+
+.btn{
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.btn button{
+  background: #11618c;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.article1 h1{
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 15%;
+}
+
+.article1 p{
+  font-size: 18px;
+  text-align: justify;
+  line-height: 2.5rem;
+}
+
+/** Services **/
+
+.services h1{
+  font-size: 35px;
+}
+
+.services li{
+  margin-left: 0;
+  line-height: 3rem;
+}
+
+.services p{
+  line-height: 2.5rem;
+}
+
+.features h1{
+  font-size: 35px;
+}
+
+.features li{
+  line-height: 3rem;
+}
+.features p{
+  line-height: 2.5rem;
+}
+.features a{
+  color: #fff;
+}
+
+#main-footer{
+  border-top: 1px solid #1486c4;
+  height: 200px;
+  margin-top: 20%;
+  padding: 20px;
+}
+
+#main-footer nav{
+  margin: auto;
+  text-align: center;
+}
+
+#main-footer ul li{
+  display: inline;
+  padding: 10px;
+}
+#main-footer p{
+  text-align: center;
+  font-size: 18px;
+}
+
+#main-footer ul li a{
+  text-decoration: none;
+  color: #fff;
+}
